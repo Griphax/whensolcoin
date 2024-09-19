@@ -1,0 +1,146 @@
+body,
+html {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    font-family: 'Race Sport', sans-serif;
+}
+
+
+body {
+    background-image: url("./images/fernandoalonsorenault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    background-image: url("./images/glowingswirls.jpg");
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: red;
+    font-weight: 900;
+    font-size: 43px;
+    align-items: space-evenly;
+}
+
+/* .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: red;
+    padding: 0;
+    margin: 0;
+} */
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 180px;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: red;
+}
+
+.driverlinks {
+    background-image: url("./images/carbonfiber.jpg");
+    height: 38%;
+    background-color: rgb(80, 0, 0);
+    text-align: center;
+    border-radius: 30px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    flex: none;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+a {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.driversbutton {
+    background-image: url("./images/carbonfiber.jpg");
+    color: grey;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 15px 32px;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-line: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.footer {
+    font-family: 'circuit', sans-serif;
+    background-color: transparent;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    display: flex;
+    flex: none;
+    justify-content: space-around;
+    gap: 10px 80px;
+}
+
+.logo {
+    color: red;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sixtyseven {
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
