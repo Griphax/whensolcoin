@@ -12,9 +12,9 @@ html {
 
 
 body {
-    background-image: url("./images/fernandoalonsorenault.jpg");
+    background-image: url("./images/photo_2024-09-15_09-26-35.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
 }
 
